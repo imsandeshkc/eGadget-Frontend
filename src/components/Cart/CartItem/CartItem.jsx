@@ -75,16 +75,18 @@ const CartItem = () => {
 
                             <span className="highlight">
 
-                                <span>&#8377;</span>
                                 {item.attributes.price}
+                                <span>NPR</span>
 
                             </span>
 
                             <span>=</span>
 
                             <span>
-                                <span>&#8377;</span>
+                                
                                 {item.attributes.price * item.attributes.quantity}
+                                <span>NPR</span>
+                                
                             </span>
                         </div>
                         

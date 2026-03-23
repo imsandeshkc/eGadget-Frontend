@@ -104,7 +104,7 @@ const Cart = () => {
                                 <span className="text">Subtotal:</span>
 
                                 <span className="text total">
-                                    &#8377;{cartSubTotal}
+                                    {cartSubTotal} NPR
                                 </span>
                             </div>
 
